@@ -53,12 +53,12 @@ const Experiences = () => {
 
 
 
-      {/* 🔥 FASHION SECTION */}
+      {/*  FASHION SECTION */}
       <div className="bg-black text-white py-20 px-6 md:px-16">
 
         <div className="grid md:grid-cols-2 gap-10 items-center relative">
 
-          {/* LEFT IMAGE */}
+       
           <div className="relative">
             <img
               src="/images/experiences/fashion.png"
