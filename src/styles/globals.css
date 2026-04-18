@@ -1,0 +1,24 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+/* .inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+.hide-scrollbar {
+  scrollbar-width: none;
+}
