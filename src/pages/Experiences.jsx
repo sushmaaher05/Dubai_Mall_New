@@ -1,8 +1,7 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
 const Experiences = () => {
-  const textRef = useRef(null);
 
   return (
     <div>
@@ -23,8 +22,8 @@ const Experiences = () => {
           />
           <div className="absolute inset-0 bg-black/60 z-10"></div>
           <div
-            ref={textRef}
-            className="absolute inset-0 flex flex-col items-center justify-center text-center z-20">
+        
+            className="relative z-10 flex flex-col items-center justify-center text-center px-6 h-full pt-34 md:pt-54">
 
             <p className="text-[9px] md:text-[11px] tracking-[0.5em] text-yellow-500 mb-4 uppercase">
               EVERYTHING YOU DESIRE
@@ -113,7 +112,7 @@ const Experiences = () => {
 
         <div className="absolute inset-0 bg-black/70"></div>
 
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 pt-20 md:pt-40">
 
           <div className="w-[1px] h-16 bg-[#C9A96E] mb-6"></div>
 
@@ -281,10 +280,10 @@ const Experiences = () => {
       </section>
 
 
-      <section className="bg-black text-white py-20 px-6 md:px-16 text-center">
+      <section className="bg-black text-white px-6 md:px-16 text-center flex flex-col items-center justify-center min-h-[40vh]">
 
         {/* TITLE */}
-        <h2 className="font-serif text-4xl md:text-6xl lg:text-7xl text-[#EAE7DF] mb-12">
+        <h2 className="font-serif text-4xl md:text-6xl lg:text-7xl text-[#EAE7DF] mb-7">
           Plan Your Visit
         </h2>
 
@@ -292,27 +291,14 @@ const Experiences = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
 
           {/* PRIMARY BUTTON */}
-          <button className="
-      bg-[#C9A96E] text-black 
-      px-10 py-4 
-      text-sm tracking-[0.3em] 
-      uppercase
-      transition-all duration-300
-      hover:bg-[#b8955c]
-    ">
+          <button className="bg-[#C9A96E] text-black px-10 py-4 text-sm tracking-[0.3em] uppercase 
+          transition-all duration-300 hover:bg-[#b8955c]">
             Book a Tour
           </button>
 
           {/* SECONDARY BUTTON */}
-          <button className="
-      border border-gray-600 
-      text-white 
-      px-10 py-4 
-      text-sm tracking-[0.3em] 
-      uppercase
-      transition-all duration-300
-      hover:bg-white hover:text-black
-    ">
+          <button className="border border-gray-600 text-white px-10 py-4 text-sm tracking-[0.3em] uppercase
+            transition-all duration-300 hover:bg-white hover:text-black">
             Download Map
           </button>
 
@@ -321,7 +307,6 @@ const Experiences = () => {
       </section>
 
     </div>
-  )
-}
-
+  );
+};
 export default Experiences;
