@@ -8,7 +8,7 @@ const Destination = () => {
 
       {/* BACKGROUND IMAGE */}
       <img
-        src="public/images/destination/banner.png"
+        src="/images/destination/banner.png"
         alt="Dubai Mall"
         className="absolute inset-0 w-full h-full object-cover"
       />

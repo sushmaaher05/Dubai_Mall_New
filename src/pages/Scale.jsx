@@ -8,7 +8,7 @@ const Scale = () => {
 
         {/* BACKGROUND IMAGE WITH MOTION */}
         <motion.img
-          src="public/images/scale/banner.png"
+          src="/images/scale/banner.png"
           alt="background"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1 }}
