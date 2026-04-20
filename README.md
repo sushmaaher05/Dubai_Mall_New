@@ -8,7 +8,7 @@ The project replaces traditional static sales decks with a modern, immersive web
 ## Tech Stack
 - React (Vite)
 - Tailwind CSS
-- GSAP (animations)
+- Framer (animations)
 
 ## Features
 - Fullscreen cinematic hero section
