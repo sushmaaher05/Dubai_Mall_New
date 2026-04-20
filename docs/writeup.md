@@ -19,7 +19,7 @@ The UI is inspired by premium digital experiences, focusing on minimalism, stron
 ## Technical Thinking
 The project is structured into modular sections to ensure scalability and future expansion into areas like leasing, sponsorship, and venue-specific modules.
 
-GSAP was used to create smooth, scroll-based transitions that enhance narrative flow and engagement.
+Framer was used to create smooth, scroll-based transitions that enhance narrative flow and engagement.
 
 ## AI Usage
 AI tools were used to:
