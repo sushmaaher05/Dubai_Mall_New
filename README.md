@@ -33,5 +33,5 @@ Live project link: (add here)
 ## Folder Structure
 - components/ → reusable UI components
 - sections/ → main storytelling sections
-- animations/ → GSAP animation logic
+- animations/ → Framer animation logic
 - data/ → static content
